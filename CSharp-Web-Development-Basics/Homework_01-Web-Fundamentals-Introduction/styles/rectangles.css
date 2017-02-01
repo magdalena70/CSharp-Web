@@ -1,0 +1,29 @@
+div{
+	font-family: Verdana, sans-serif;
+	margin: 30px auto;
+	padding: 30px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+#blue-border{
+	border: dotted 6px blue;
+}
+
+#red-border{
+	border: dashed 4px red;
+}
+
+#green-border{
+	border: solid 3px green;
+}
+
+	#green-border p{
+		padding: 0;
+		margin: 0;
+		font-size: 60px;
+	}
+	
+	#green-border p > span{
+		font-size: 80px;
+	}
