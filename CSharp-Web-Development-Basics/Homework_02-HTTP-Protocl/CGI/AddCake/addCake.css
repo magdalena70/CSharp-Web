@@ -1,0 +1,55 @@
+﻿body, #wrapper
+{
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: darkgray;
+    background-color: lightgoldenrodyellow;
+}
+
+h1{
+    text-align: center;
+	color: darkslategrey;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+}
+
+input{
+    width: 100%;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+	font-size: 15px;
+	border-color: rosybrown;
+}
+
+input[type="submit"]{
+	background-color: rosybrown;
+	font-size: 20px;
+	color: white;
+}
+
+	#wrapper > header{
+		border-top: solid 1px darkgray;
+		border-bottom: solid 1px darkgray;
+		padding: 10px 20px;
+	}
+
+    #wrapper section, #newCake-info{
+        border: solid 1px rosybrown;
+        padding: 10px;
+        margin: 10px 160px;
+    }
+	
+		#newCake-info{
+			font-weight: bold;
+			text-align:center;
+		}
+	
+	    #newCake-info #errorMsg{
+            color: red;
+            font-size: 30px;
+        }
+}

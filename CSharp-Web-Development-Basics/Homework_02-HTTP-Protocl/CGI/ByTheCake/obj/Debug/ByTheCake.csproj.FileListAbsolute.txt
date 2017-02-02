@@ -1,0 +1,6 @@
+C:\Users\acer\Desktop\CGI\CGI\bin\Debug\CGI.exe.config
+C:\Users\acer\Desktop\CGI\CGI\bin\Debug\CGI.exe
+C:\Users\acer\Desktop\CGI\CGI\bin\Debug\CGI.pdb
+C:\Users\acer\Desktop\CGI\CGI\obj\Debug\ByTheCake.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\CGI\CGI\obj\Debug\CGI.exe
+C:\Users\acer\Desktop\CGI\CGI\obj\Debug\CGI.pdb

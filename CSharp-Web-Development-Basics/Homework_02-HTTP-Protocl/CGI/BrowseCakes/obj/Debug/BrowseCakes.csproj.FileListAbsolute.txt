@@ -1,0 +1,5 @@
+C:\Users\acer\Desktop\CGI\BrowseCakes\bin\Debug\BrowseCakes.exe.config
+C:\Users\acer\Desktop\CGI\BrowseCakes\bin\Debug\BrowseCakes.exe
+C:\Users\acer\Desktop\CGI\BrowseCakes\bin\Debug\BrowseCakes.pdb
+C:\Users\acer\Desktop\CGI\BrowseCakes\obj\Debug\BrowseCakes.exe
+C:\Users\acer\Desktop\CGI\BrowseCakes\obj\Debug\BrowseCakes.pdb
