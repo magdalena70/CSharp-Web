@@ -1,0 +1,6 @@
+C:\Users\acer\Desktop\LoginForm\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\acer\Desktop\LoginForm\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\acer\Desktop\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
+C:\Users\acer\Desktop\LoginForm\LoginForm\obj\Debug\LoginForm.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\LoginForm\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\acer\Desktop\LoginForm\LoginForm\obj\Debug\LoginForm.pdb
