@@ -1,0 +1,47 @@
+﻿body, #wrapper
+{
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #26004d;
+    background-color: #f2e6ff;
+}
+
+h1{
+    text-align: center;
+	color: #0d001a;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+}
+
+input, textarea{
+    width: 95%;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+	font-size: 15px;
+	color: #0d001a;
+	border-color: #b366ff;
+}
+
+input[type="submit"]{
+	display: block;
+	width: 70%;
+	margin: auto;
+	background-color: #b366ff;
+	font-size: 20px;
+	color: white;
+}
+
+input[type="submit"]:hover{
+	background-color: #0d001a;
+	color: #b366ff;
+}
+
+#wrapper, #wrapper > section{
+	border-top: solid 1px #26004d;
+	border-bottom: solid 1px #26004d;
+	margin: 10px;
+}

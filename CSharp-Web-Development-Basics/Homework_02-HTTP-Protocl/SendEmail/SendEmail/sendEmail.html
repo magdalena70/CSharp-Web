@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Send Email</title>
+    <link rel="stylesheet" href="/SendEmail/style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Hello suAdmin</h1>
+        </header>
+        <section>
+            <form action="SendEmail.exe" method="post">
+                <label for="email-addres">To</label>
+                <input type="email" placeholder="Email" name="Email-address" id="email-address" required />
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Subject" name="Subject" id="subject" required />
+                <label for="message">Message</label>
+                <textarea name="Message" rows=10>Message</textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </section>
+    </div>
+</body>
+</html>
