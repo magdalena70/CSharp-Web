@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--https://softuni.bg/trainings/resources/officedocument/12257/bootstrap-exercise-problem-descriptions-csharp-web-development-basics-january-2017-->
+<!--Problems: 5-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Online Library</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="onlineLibrary.css" />
+</head>
+<body>
+	<div class="container">
+	
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Library</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">C# Books</a></li>
+					<li><a href="#">Java Books</a></li>
+				</ul>
+				<form class="navbar-form navbar-left">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search  for a book">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-default">Go!</button>
+						</div>
+					</div>			
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Hello, {user}!</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					<li><a href="#"><img src="images/shopping-cart.png" alt="shopping-cart"/></a></li>
+					<li><a href="#" class="btn btn-success">BG</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <ul class="nav">
+                    <li><a href="#" class="btn-primary img-rounded">Subscription Proces</a></li>
+                    <li><a href="#" class="img-rounded">General Information</a></li>
+                    <li><a href="#" class="img-rounded">Contacts</a></li>
+                </ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-10">
+				<div class="img-thumbnail">
+					<img src="images/book.png" alt="book" class="img-responsive"/>
+					<div class="col-lg-offset-1 col-md-offset-1">
+						<h3>Programming Foundamentals C#</h3>
+						<p><strong>45</strong> copies avaliable</p>
+						<img src="images/rating.png" alt="rating" class="img-responsive"/>
+						<p><a href="">Details</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary">Borrow</button>
+							<button type="button" class="btn btn-default">Add to cart</button>
+						</div>
+						<p class="text-muted">Last time borrowed 3 hours ago</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-10">
+				<div class="img-thumbnail">
+					<img src="images/book.png" alt="book" class="img-responsive"/>
+					<div class="col-lg-offset-1 col-md-offset-1">
+						<h3>Programming Foundamentals Java</h3>
+						<p><strong>3</strong> copies avaliable</p>	
+						<img src="images/rating.png" alt="rating" class="img-responsive"/>
+						<p><a href="">Details</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary">Borrow</button>
+							<button type="button" class="btn btn-default">Add to cart</button>
+						</div>
+						<p class="text-muted">Last time borrowed 5 hours ago</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-10">
+				<div class="img-thumbnail">
+					<img src="images/book.png" alt="book" class="img-responsive"/>
+					<div class="col-lg-offset-1 col-md-offset-1">
+						<h3>Основи на програмирането C#</h3>
+						<p><strong>3</strong> copies avaliable</p>
+						<img src="images/rating.png" alt="rating" class="img-responsive"/>
+						<p><a href="">Details</a></p>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary">Borrow</button>
+							<button type="button" class="btn btn-default">Add to cart</button>
+						</div>
+						<p class="text-muted">Last time borrowed 1 hours ago</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-4 col-xs-offset-1">
+			<nav aria-label="...">
+				<ul class="pagination">
+					<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">Previous</span></a></li>
+					<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#" aria-label="Next"><span aria-hidden="true">Next</span></a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<footer>
+			<p class="text-center">All Rights Reserved &copy; 2017</p>
+		</footer>
+	</div>
+<script src="jquery/jquery-3.1.1.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

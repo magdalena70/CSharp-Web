@@ -1,0 +1,15 @@
+
+/*-----nav bar - input search----*/
+.input-group > .form-control{
+	border-right: none;
+}
+
+.input-group > .input-group-btn > .btn{
+	border-left: none;
+}
+/*-----end----*/
+
+.img-thumbnail{
+	width: 100%;
+	margin: 10px;
+}
