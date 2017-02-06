@@ -1,0 +1,51 @@
+#myCarousel{
+	height: 100%;
+	width: auto;
+	position: absolute;
+}
+
+.carousel-inner{
+	height: 100%;
+	width: auto;
+}
+
+#wrapper{
+		background-image: url("../images/pizza_2.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		padding: 0 5% 30% 5%;
+}
+
+#navigation{
+	background-color: transparent;
+	border: none;
+}
+
+.btn{
+	font-size: 20px;
+	margin: 3px;
+}
+
+
+.navbar-default .navbar-brand { 
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+    color: #e0e0e0;
+}
+/* link */
+.navbar-default .navbar-nav > li > a { 
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: #D5D5D5;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #D5D5D5;
+}
