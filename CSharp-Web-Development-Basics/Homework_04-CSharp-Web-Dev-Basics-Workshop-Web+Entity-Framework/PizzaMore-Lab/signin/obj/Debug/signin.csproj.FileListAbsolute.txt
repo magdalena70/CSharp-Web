@@ -1,0 +1,14 @@
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\signin.exe.config
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\signin.exe
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\signin.pdb
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\PizzaMore.Data.dll
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\PizzaMore.Data.pdb
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\PizzaMore.Utilities.pdb
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\StateManagement\signin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\StateManagement\signin\obj\Debug\signin.exe
+C:\Users\acer\Desktop\StateManagement\signin\obj\Debug\signin.pdb
+C:\Users\acer\Desktop\StateManagement\signin\obj\Debug\signin.csprojResolveAssemblyReference.cache

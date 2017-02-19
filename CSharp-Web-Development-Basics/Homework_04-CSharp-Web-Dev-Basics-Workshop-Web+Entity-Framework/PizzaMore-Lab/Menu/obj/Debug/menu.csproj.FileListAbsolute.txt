@@ -1,0 +1,16 @@
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\Menu.exe.config
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\Menu.exe
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\Menu.pdb
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\Home.exe
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\PizzaMore.Data.dll
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\Home.pdb
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\PizzaMore.Data.pdb
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\PizzaMore.Utilities.pdb
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\StateManagement\Menu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\StateManagement\Menu\obj\Debug\menu.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\StateManagement\Menu\obj\Debug\Menu.exe
+C:\Users\acer\Desktop\StateManagement\Menu\obj\Debug\Menu.pdb

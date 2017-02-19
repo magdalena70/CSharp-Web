@@ -1,0 +1,14 @@
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\signup.exe.config
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\signup.exe
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\signup.pdb
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\PizzaMore.Data.dll
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\PizzaMore.Data.pdb
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\PizzaMore.Utilities.pdb
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\StateManagement\signup\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\StateManagement\signup\obj\Debug\signup.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\StateManagement\signup\obj\Debug\signup.exe
+C:\Users\acer\Desktop\StateManagement\signup\obj\Debug\signup.pdb

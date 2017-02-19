@@ -1,0 +1,12 @@
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\PizzaMore.Utilities.dll.config
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\PizzaMore.Utilities.pdb
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\PizzaMore.Data.dll
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\PizzaMore.Data.pdb
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\obj\Debug\PizzaMore.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\obj\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\PizzaMore.Utilities\obj\Debug\PizzaMore.Utilities.pdb

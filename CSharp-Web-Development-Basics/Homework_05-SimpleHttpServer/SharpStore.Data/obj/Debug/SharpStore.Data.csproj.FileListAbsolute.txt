@@ -1,0 +1,14 @@
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SharpStore.Data.dll.config
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SharpStore.Data.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SharpStore.Data.pdb
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SharpStore.Models.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SharpStore.Models.pdb
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\obj\Debug\SharpStore.Data.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\obj\Debug\SharpStore.Data.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\obj\Debug\SharpStore.Data.pdb
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SimpleHttpServer.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SharpStore.Data\bin\Debug\SimpleHttpServer.pdb

@@ -1,0 +1,14 @@
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\YourSuggestions.exe.config
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\YourSuggestions.exe
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\YourSuggestions.pdb
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\EntityFramework.dll
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\PizzaMore.Data.dll
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\PizzaMore.Utilities.dll
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\PizzaMore.Data.pdb
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\PizzaMore.Utilities.pdb
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\EntityFramework.xml
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\obj\Debug\YourSuggestions.exe
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\obj\Debug\YourSuggestions.pdb
+C:\Users\acer\Desktop\StateManagement\YourSuggestions\obj\Debug\YourSuggestions.csprojResolveAssemblyReference.cache

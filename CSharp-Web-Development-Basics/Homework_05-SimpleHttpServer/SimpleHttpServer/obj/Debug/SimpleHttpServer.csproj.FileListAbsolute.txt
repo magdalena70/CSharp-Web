@@ -1,0 +1,5 @@
+C:\Users\acer\Desktop\SimpleHttpServer\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\SimpleHttpServer\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\acer\Desktop\SimpleHttpServer\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\acer\Desktop\SimpleHttpServer\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
