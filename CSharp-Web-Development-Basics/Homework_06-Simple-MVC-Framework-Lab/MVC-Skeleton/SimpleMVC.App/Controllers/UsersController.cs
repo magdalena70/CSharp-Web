@@ -1,10 +1,12 @@
-﻿using SimpleMVC.App.BindingModels;
+﻿using SimpleHttpServer.Models;
+using SimpleMVC.App.BindingModels;
 using SimpleMVC.App.Data;
 using SimpleMVC.App.Models;
 using SimpleMVC.App.MVC.Attributes.Methods;
 using SimpleMVC.App.MVC.Controllers;
 using SimpleMVC.App.MVC.Interfaces;
 using SimpleMVC.App.MVC.Interfaces.Generic;
+using SimpleMVC.App.MVC.Security;
 using SimpleMVC.App.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,13 @@ namespace SimpleMVC.App.Controllers
 {
     public class UsersController : Controller
     {
+        private SignInManager signInManager;
+
+        public UsersController()
+        {
+            signInManager = new SignInManager(new NotesAppContext());
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -21,12 +30,12 @@ namespace SimpleMVC.App.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(RegisterUserBindingModel model)
+        public IActionResult Register(RegisterUserBindingModel model, HttpResponse response)
         {
             if (model.Username == null && model.Password == null)
             {
-                Console.WriteLine("Error - Username or password can not be empty.");
-                //throw new Exception("Error - Username or password can not be empty.");
+                Redirect(response, "/home/index");
+                return null;
             }
 
             User user = new User()
@@ -45,8 +54,14 @@ namespace SimpleMVC.App.Controllers
         }
 
         [HttpGet]
-        public IActionResult<IEnumerable<AllUsernamesViewModel>> All()
+        public IActionResult<IEnumerable<AllUsernamesViewModel>> All(HttpSession session, HttpResponse response)
         {
+            if (!signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/users/login");
+                return null;
+            }
+
             using (NotesAppContext context = new NotesAppContext())
             {
                 var users = context.Users.Select(u => new { UserId = u.Id, u.Username }).ToList();
@@ -66,12 +81,18 @@ namespace SimpleMVC.App.Controllers
         }
 
         [HttpGet]
-        public IActionResult<UserProfileViewModel> Profile(int id)
+        public IActionResult<UserProfileViewModel> Profile(int id, HttpSession session, HttpResponse response)
         {
             if (id <= 0)
             {
-                Console.WriteLine("Error - invalid id.");
-                //throw new Exception("Error - invalid id.");
+                Redirect(response, "/users/login");
+                return null;
+            }
+
+            if (!signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/users/login");
+                return null;
             }
 
             var viewModel = new UserProfileViewModel();
@@ -83,6 +104,7 @@ namespace SimpleMVC.App.Controllers
                 {
                     viewModel = new UserProfileViewModel()
                     {
+                        SessionId = session.Id,
                         UserId = user.Id,
                         Username = user.Username,
                         Notes = user.Notes
@@ -99,12 +121,12 @@ namespace SimpleMVC.App.Controllers
         }
 
         [HttpPost]
-        public IActionResult<UserProfileViewModel> Profile(AddNoteBindingModel model)
+        public IActionResult<UserProfileViewModel> Profile(AddNoteBindingModel model, HttpSession session, HttpResponse response)
         {
             if (model.Title == null || model.Content == null)
             {
-                Console.WriteLine("Error - Title or Content can not be empty.");
-                //throw new Exception("Error - invalid id or empty input field.");
+                Redirect(response, "/users/login");
+                return null;
             }
 
             using (NotesAppContext context = new NotesAppContext())
@@ -120,8 +142,57 @@ namespace SimpleMVC.App.Controllers
                 user.Notes.Add(note);
                 context.SaveChanges();
 
-                return Profile(model.UserId);
+                return Profile(model.UserId, session, response);
             }
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginUserBindingModel model, HttpSession session, HttpResponse response)
+        {
+            string username = model.Username;
+            string password = model.Password;
+            string sessionId = session.Id;
+
+            using (NotesAppContext context = new NotesAppContext())
+            {
+                User user = context.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
+                if (user != null)
+                {
+                    Login login = new Login()
+                    {
+                        User = user,
+                        SessionId = sessionId,
+                        IsActive = true
+                    };
+
+                    context.Logins.Add(login);
+                    context.SaveChanges();
+                    Redirect(response, "/home/index");
+                    return null;
+                }
+            }
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            return View();
+        }
+
+        //to do
+        //[HttpPost]
+        //public IActionResult Logout(HttpSession session)
+        //{
+        //    signInManager.Logout(session);          
+        //    return View("Home", "Index");
+        //}
     }
 }

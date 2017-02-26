@@ -5,3 +5,10 @@ C:\Users\acer\Desktop\Homework_06\MVC-Skeleton\SimpleHttpServer\bin\Debug\Simple
 C:\Users\acer\Desktop\Homework_06\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
 C:\Users\acer\Desktop\Homework_06\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
 C:\Users\acer\Desktop\Homework_06\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-Simple-MVC-Framework-Lab\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb

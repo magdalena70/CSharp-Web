@@ -23,28 +23,33 @@ namespace SimpleMVC.App.MVC.Routers
 
         private string[] controllerActionParams;
         private string[] controllerAction;
+
+        private HttpRequest request;
+        private HttpResponse response;
+
         public ControllerRouter()
         {
             this.getParams = new Dictionary<string, string>();
             this.postParams = new Dictionary<string, string>();
+            this.request = new HttpRequest();
+            this.response = new HttpResponse();
         }
+
         public HttpResponse Handle(HttpRequest request)
         {
+            this.request = request;
+            this.response = new HttpResponse();
             this.ParseInput(request);
-            //TODO check if there is session with given id and execute the method only if user is authorised
 
-            var method = this.GetMethod();
-            var controller = this.GetController();
             IInvocable result =
-                (IInvocable)method
-                .Invoke(controller, this.methodParams);
+                (IInvocable)this.GetMethod()
+                .Invoke(this.GetController(), this.methodParams);
 
-            string content = result.Invoke();
-            var response = new HttpResponse()
+            if (string.IsNullOrEmpty(this.response.Header.Location))
             {
-                ContentAsUTF8 = content,
-                StatusCode = ResponseStatusCode.Ok
-            };
+                this.response.StatusCode = ResponseStatusCode.Ok;
+                this.response.ContentAsUTF8 = result.Invoke();
+            }
 
             this.ClearRequestParameters();
             return response;
@@ -81,7 +86,8 @@ namespace SimpleMVC.App.MVC.Routers
                 query = request.Url.Split('?')[1];
             }
             this.controllerActionParams = uri.Split('?');
-            this.controllerAction = controllerActionParams[0].Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+            this.controllerAction = controllerActionParams[0]
+                    .Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
             this.controllerActionParams = query.Split('&');
 
             //Retrieve GET parameters
@@ -99,6 +105,7 @@ namespace SimpleMVC.App.MVC.Routers
 
             //Retrieve POST parameters
             string postParameters = request.Content;
+            
             if (postParameters != null)
             {
                 postParameters = WebUtility.UrlDecode(postParameters);
@@ -140,6 +147,21 @@ namespace SimpleMVC.App.MVC.Routers
                         );
                     index++;
                 }
+                else if (param.ParameterType == typeof(HttpRequest))
+                {
+                    this.methodParams[index] = this.request;
+                    index++;
+                }
+                else if (param.ParameterType == typeof(HttpSession))
+                {
+                    this.methodParams[index] = this.request.Session;
+                    index++;
+                }
+                else if (param.ParameterType == typeof(HttpResponse))
+                {
+                    this.methodParams[index] = this.response;
+                    index++;
+                }
                 else
                 {
                     Type bindingModelType = param.ParameterType;
@@ -168,6 +190,7 @@ namespace SimpleMVC.App.MVC.Routers
                 }
             }
         }
+
         private IEnumerable<MethodInfo> GetSuitableMethods()
         {
             return this.GetController()

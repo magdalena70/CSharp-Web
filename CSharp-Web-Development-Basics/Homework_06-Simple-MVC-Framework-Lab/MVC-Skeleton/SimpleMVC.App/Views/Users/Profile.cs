@@ -10,7 +10,7 @@ namespace SimpleMVC.App.Views.Users
 
         public string Render()
         {
-            string result = $"<h2>User: {Model.Username}</h2>\r\n" +
+            string result = $"<h2>User: {Model.Username}, session: {Model.SessionId}</h2>\r\n" +
                 "<p><a href=\"/home/index\">Home<a/></p>\r\n" +
                 "<form method=\"post\" action=\"profile\">\r\n" +
                 "<div>\r\n<input type=\"text\" placeholder=\"Title\" name=\"Title\" required/>\r\n</div>\r\n" +

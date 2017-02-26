@@ -1,4 +1,5 @@
 ﻿using SimpleHttpServer;
+using SimpleMVC.App.Data;
 using SimpleMVC.App.MVC;
 
 namespace SimpleMVC.App
@@ -7,9 +8,6 @@ namespace SimpleMVC.App
     {
         static void Main()
         {
-            //NotesAppContext context = new NotesAppContext();
-            //context.Database.Initialize(true);
-
             HttpServer server = new HttpServer(8081, RouteTable.Routes);
             MvcEngine.Run(server);
         }
