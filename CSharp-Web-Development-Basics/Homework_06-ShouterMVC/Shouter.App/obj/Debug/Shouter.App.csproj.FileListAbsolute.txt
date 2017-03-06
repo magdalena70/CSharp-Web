@@ -14,3 +14,6 @@ C:\Users\acer\Desktop\ShouterMVC\Shouter.App\bin\Debug\EntityFramework.dll
 C:\Users\acer\Desktop\ShouterMVC\Shouter.App\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\acer\Desktop\ShouterMVC\Shouter.App\bin\Debug\EntityFramework.xml
 C:\Users\acer\Desktop\ShouterMVC\Shouter.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-ShouterMVC\Shouter.App\bin\Debug\Shouter.App.exe.config
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-ShouterMVC\Shouter.App\obj\Debug\Shouter.App.exe
+C:\Users\acer\Documents\GitHub\CSharp-Web\CSharp-Web-Development-Basics\Homework_06-ShouterMVC\Shouter.App\obj\Debug\Shouter.App.pdb
