@@ -1,0 +1,6 @@
+C:\Users\acer\Desktop\CGI\AddCake\bin\Debug\AddCake.exe.config
+C:\Users\acer\Desktop\CGI\AddCake\bin\Debug\AddCake.exe
+C:\Users\acer\Desktop\CGI\AddCake\bin\Debug\AddCake.pdb
+C:\Users\acer\Desktop\CGI\AddCake\obj\Debug\AddCake.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\CGI\AddCake\obj\Debug\AddCake.exe
+C:\Users\acer\Desktop\CGI\AddCake\obj\Debug\AddCake.pdb

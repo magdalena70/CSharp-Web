@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Add Cake</title>
+    <link rel="stylesheet" href="/ByTheCake/styles/addCake.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <p><a href="/cgi-bin/ByTheCake-CGI.exe">Back To Home</a></p>
+            <h1>Add Cake</h1>
+        </header>
+        <section>
+            <form action="AddCake.exe" method="post">
+                <label>Name</label>
+                <input type="text" placeholder="Cake Name" name="NewCake-Name" required/>
+                <label>Price</label>
+                <input type="text" placeholder="Cake Price" name="NewCake-Price" required/>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </div>
+</body>
+</html>

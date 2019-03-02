@@ -1,0 +1,79 @@
+﻿body, #wrapper, a
+{
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: darkgray;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2, h3{
+    text-align: center;
+	color: darkslategrey;
+}
+
+ul, li, a{
+	color: rosybrown;
+	font-size: 20px;
+	font-style: italic;
+	
+}
+
+a:hover{
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.cake-store-address{
+	width: 30%;
+	display: inline-block;
+	margin: 0 1%;
+}
+
+	#wrapper > header > ul{
+		border-top: solid 1px darkgray;
+		border-bottom: solid 1px darkgray;
+		padding: 10px 20px;
+	}
+	
+#wrapper main{
+	margin: 0 160px;
+	padding: 10px;
+}
+
+    #wrapper main, #wrapper section{
+        border: solid 1px rosybrown;
+        padding: 10px;
+    }
+	
+	#wrapper section{
+		margin: 5px 0;
+	}
+
+        #wrapper section .img-box{
+            width: 90%;
+			margin: auto;
+        }
+
+            #wrapper section .img-box img{
+                width: 32%;
+				margin: 1px;
+            }
+			
+	#wrapper #addresses{
+	width: 100%;
+	background-color: rosybrown;
+	color: white;
+}
+
+		#wrapper #addresses .cake-store-address{
+			width: 30%;
+			display: inline-block;
+			margin: 0 1%;
+		}
+
+	#wrapper footer{
+        border-top: solid 1px gray;
+		border-bottom: solid 1px gray;
+        text-align: center;
+		margin: 10px 0;
+    }
